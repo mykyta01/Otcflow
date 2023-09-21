@@ -1,0 +1,68 @@
+.form-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.form-decription {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  width: 70%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+
+  label {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    textarea {
+      margin-top: 5px;
+      padding: 5px;
+      display: block;
+      width: 100%; // Same width
+      height: 40px; // Same height
+      box-sizing: border-box; // So padding doesn't affect size
+      resize: none;
+    }
+  }
+
+  button.form-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+}
+
+
+.form-button {
+    width: 250px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
