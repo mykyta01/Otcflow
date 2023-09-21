@@ -23,4 +23,4 @@ For Management
 Comprehensive Overview: Get insights into all processes, such as trading volume, legal workload, etc.
 Performance Metrics: Easily reward top performers based on automated metrics.
 
-- [DEMO LINK](https://mykyta01.github.io/Otcflow/)
+- [DEMO LINK](https://mykyta01.github.io/otcflow/)
